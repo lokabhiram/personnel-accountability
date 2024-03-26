@@ -62,8 +62,8 @@ if __name__ == '__main__':
     prev_cnt = 0
 
 
-    cap = cv.VideoCapture(0)
-    #cap = cv.VideoCapture('test/test_1.mp4')
+    #cap = cv.VideoCapture(0)
+    cap = cv.VideoCapture('test/test_1.mp4')
     #cap = cv.VideoCapture("test_1.mp4")  # Use webcam with device index 0
 
     #camera = PiCamera()
@@ -79,8 +79,8 @@ if __name__ == '__main__':
     for i in range(19):
         print( i, cap.get(i))
 
-    h =480
-    w = 640
+    h =300
+    w = 402
     frameArea = h*w
     areaTH = frameArea/250
     print( 'Area Threshold', areaTH)
