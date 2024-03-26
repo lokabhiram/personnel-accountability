@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 
     cap = cv.VideoCapture(0)
-    #cap = cv.VideoCapture('Testfiles/TestVideo.avi')
+    #cap = cv.VideoCapture('test/test_1.mp4')
     #cap = cv.VideoCapture("test_1.mp4")  # Use webcam with device index 0
 
     #camera = PiCamera()
