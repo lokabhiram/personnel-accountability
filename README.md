@@ -30,7 +30,7 @@ The Personnel Accountability System is a computer vision-based application that 
 - Customize the application according to your use case.
 
 ## Contributors
-- [Your Name](https://github.com/lokabhiram) - Main Developer
+- [Lokabhiram](https://github.com/lokabhiram) - Main Developer
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
