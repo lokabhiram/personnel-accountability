@@ -8,6 +8,7 @@ from flask import Flask
 app = Flask(__name__)
 cnt_up=0
 cnt_down = 0
+count=0
 
 # Function to increment visitor count
 def increment_visitor_count():
@@ -62,8 +63,8 @@ if __name__ == '__main__':
     prev_cnt = 0
 
 
-    #cap = cv.VideoCapture(0)
-    cap = cv.VideoCapture('test/test_1.mp4')
+    cap = cv.VideoCapture("test/test_1.mp4")
+    #cap = cv.VideoCapture('Testfiles/TestVideo.avi')
     #cap = cv.VideoCapture("test_1.mp4")  # Use webcam with device index 0
 
     #camera = PiCamera()
